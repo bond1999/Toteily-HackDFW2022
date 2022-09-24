@@ -1,4 +1,4 @@
-# Tot(e)ally bags
+# Tote-ally bags
 
 ## How does it work?
 
