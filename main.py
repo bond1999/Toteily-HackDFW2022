@@ -4,7 +4,6 @@ from operator import itemgetter
 import string
 import struct
 import uuid
-
 # UUID Generator
 def generateUUID():
     flag = 0
