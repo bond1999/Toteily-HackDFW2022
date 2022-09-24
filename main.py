@@ -1,6 +1,5 @@
 # Project Idea: Computer Vision and AI to create the pathway for a Personalized Customer Journey
 import uuid
-
 # UUID Generator
 def generateUUID():
     flag = 0
