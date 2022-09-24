@@ -39,37 +39,27 @@ def retrieve():
     print("Retrieving Shopping Information...")
 
     print("Retrieving Successful!")
-    
+
+class StoreVisit:
+    date_visited = ""
+    time_in_store = 0.0
+    money_spent = 0.0
+    items_bought = []
+    time_spent_aisle_num = []
+
 class Customer:
+    first_name = None
+    last_name = None
+    gender = None
+    age = None
+    customer_email = None
+    customer_phone = None
+    StoreVisit visits = []
     def __init__(self, uuid):
         self.uuid = uuid
 
-        customer_first_name = ""
 
-        customer_last_name = ""
 
-        gender = ""
-
-        age = ""
-
-        customer_email = ""
-
-        customer_phone = ""
-
-class StoreVisit:
-    def __init__(self, visits):
-        self.visits = visits
-
-        date_visited = ""
-
-        time_in_store = 0.0
-        
-        money_spent = 0.0
-
-        items_bought = []
-        
-        time_spent_aisle_num = []          
-         
 def main():
     generateXUUIDs(20)
     print("I Totes see you!") # Hehe
