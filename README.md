@@ -28,7 +28,7 @@ Easily track and learn individual and congregrate customer behaviors, preference
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin1-url]: https://linkedin.com/in/linkedin_username
-[linkedin2-url]: https://linkedin.com/in/linkedin_username
+[linkedin2-url]: https://www.linkedin.com/in/william-girvan/
 [linkedin3-url]: https://linkedin.com/in/linkedin_username
 [linkedin4-url]: https://www.linkedin.com/in/surya-aggarwal/
 [linkedin5-url]: https://linkedin.com/in/linkedin_username
