@@ -3,6 +3,7 @@
 # Store Function
 def store():
     print("Storing Shopping Information...")
+
     print("Storing Successful!")
 
 # Retrieve Function
