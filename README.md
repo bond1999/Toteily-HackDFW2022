@@ -18,6 +18,7 @@ Nate Montgomery, UTD Computer Science
 Surya Aggarwal, UTD Computer Sciene
 Trevor Richmond, UTD Computer Science
 
+
 <div align="center">
 
 | <img src="https://i.imgur.com/3R0ec4D.jpg" alt="Logo" width="80px"> | <img src="https://i.imgur.com/Bd4FLZ8.jpg" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/60420578?s=400&u=60f200e3d19cb1f57db4f6d62f5f8bd30d53204c&v=4.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/46317327?s=400&u=a406abd1213b4566345d5bdba4481e8f48420421&v=4.png" alt="Logo" width="80px"> | <img src="https://i.imgur.com/ureLpuY.jpg" alt="Logo" width="80px"> |
