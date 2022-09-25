@@ -42,8 +42,8 @@ def readCustomerData():
 def main():
     allCustomers = readCustomerData()
     print("Customers Data Loading Complete!")
-    print("Starting Video Stream in 3 seconds.")
-    time.sleep(3)
+    print("Starting Video Stream in 5 seconds.")
+    time.sleep(5)
     processor.process(allCustomers)
     print(allCustomers[0].first_name, allCustomers[0].visits)
 
