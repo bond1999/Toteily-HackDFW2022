@@ -44,10 +44,10 @@ Trevor Richmond, UTD Computer Science
 [github2-shield]: https://img.shields.io/github/followers/hunterg2?style=social
 [github3-shield]: https://img.shields.io/github/followers/Nate-Montgomery?style=social
 [github4-shield]: https://img.shields.io/github/followers/bond1999?style=social
-[github5-shield]: https://img.shields.io/github/followers/username?style=social
+[github5-shield]: https://img.shields.io/github/followers/MeekSheep?style=social
 
 [github1-url]: https://github.com/blakelawyer
 [github2-url]: https://github.com/hunterg2
 [github3-url]: https://github.com/Nate-Montgomery
 [github4-url]: https://github.com/bond1999
-[github5-url]: https://github.com/username
+[github5-url]: https://github.com/MeekSheep
