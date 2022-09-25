@@ -6,8 +6,9 @@ import uuid
 import customer
 import processor
 import csv
-
 import customer
+from HackDFW2022 import live_cam
+
 
 # UUID Generator
 def generateUUID():
@@ -41,8 +42,13 @@ def readCustomerData():
 def main():
     allCustomers = readCustomerData()
     print("Customers Data Loading Complete!")
-    print("Starting Video Stream in 5 seconds.")
-    time.sleep(5)
+
+    print("Starting Video Stream in 3 seconds.")
+    time.sleep(3)
+
+    live_cam.stream(allCustomers)
+
     # processor.process(allCustomers)
+
 
 main()
