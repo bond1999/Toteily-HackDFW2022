@@ -30,7 +30,7 @@ def readCustomerData():
         for row in csvreader:
             newCustomer = customer.Customer(row)
             allCustomers.append(newCustomer)
-    with open("assets/MOCK_DATA STORE.csv") as f2:
+    with open("assets/MOCK_DATA_STORE_VISITS.csv") as f2:
         csvreader = csv.reader(f2, delimiter=',')
         for row in csvreader:
             print(len(row))
