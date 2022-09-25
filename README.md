@@ -1,7 +1,7 @@
 # Tote-ily Bags
 ![tote-ily](https://user-images.githubusercontent.com/38335612/192137387-534ebb52-16fd-4f43-9e84-5a5a67d8f34b.png)
 
-https://user-images.githubusercontent.com/38335612/192137677-b3d4b324-9abc-443f-af86-1733a117d4db.mp4
+https://user-images.githubusercontent.com/38335612/192137709-eb3fa3f8-636c-49d3-8307-47341dea7b5b.mp4
 
 ## How does it work?
 
@@ -13,8 +13,6 @@ On top of this, be encouraging customers to use the reusable tote, we cut down o
 
 Easily track and learn individual and congregrate customer behaviors, preferences, and patterns. This store that has implented this system can use it to better serve their customers and run their inventory more effienctly. 
 
-
-
 ## Contributors:
 
 Blake Lawyer, UTD Cognitive Science
@@ -22,7 +20,6 @@ Hunter Girvan, UTD Computer Science/Economics
 Nate Montgomery, UTD Computer Science
 Surya Aggarwal, UTD Computer Sciene
 Trevor Richmond, UTD Computer Science
-
 
 <div align="center">
 
