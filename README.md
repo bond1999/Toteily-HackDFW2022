@@ -16,9 +16,16 @@ Easily track and learn individual and congregrate customer behaviors, preference
 
 ## Contributors:
 
+Blake Lawyer, UTD Cognitive Science
+Hunter Girvan, UTD Computer Science/Economics
+Nate Montgomery, UTD Computer Science
+Surya Aggarwal, UTD Computer Sciene
+Trevor Richmond, UTD Computer Science
+
+
 <div align="center">
 
-| <img src="image/avaimg.png" alt="Logo" width="80px"> | <img src="image/avaimg.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/60420578?s=400&u=60f200e3d19cb1f57db4f6d62f5f8bd30d53204c&v=4.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/46317327?s=400&u=a406abd1213b4566345d5bdba4481e8f48420421&v=4.png" alt="Logo" width="80px"> | <img src="image/avaimg.png" alt="Logo" width="80px"> |
+| <img src="https://imgur.com/a/CfZXKfk.png" alt="Logo" width="80px"> | <img src="image/avaimg.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/60420578?s=400&u=60f200e3d19cb1f57db4f6d62f5f8bd30d53204c&v=4.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/46317327?s=400&u=a406abd1213b4566345d5bdba4481e8f48420421&v=4.png" alt="Logo" width="80px"> | <img src="image/avaimg.png" alt="Logo" width="80px"> |
 |------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [![GitHub][github1-shield]][github1-url]             | [![GitHub][github2-shield]][github2-url]             | [![GitHub][github3-shield]][github3-url]                                                                                                                                                                                 | [![Github][github4-shield]][github4-url]                                                                                                      | [![GitHub][github5-shield]][github5-url]             |
 | email@email_client.com                               | email@email_client.com                               | Nate.Montgomery9@gmail.com                                                                                                                                                                                               | surya.modern.jobs@gmail.com                                                                                                                   | email@email_client.com                               |
@@ -34,13 +41,13 @@ Easily track and learn individual and congregrate customer behaviors, preference
 [linkedin5-url]: https://linkedin.com/in/linkedin_username
 
 [github1-shield]: https://img.shields.io/github/followers/username?style=social
-[github2-shield]: https://img.shields.io/github/followers/username?style=social
+[github2-shield]: https://github.com/hunterg2
 [github3-shield]: https://img.shields.io/github/followers/Nate-Montgomery?style=social
 [github4-shield]: https://img.shields.io/github/followers/bond1999?style=social
 [github5-shield]: https://img.shields.io/github/followers/username?style=social
 
 [github1-url]: https://github.com/username
-[github2-url]: https://github.com/username
+[github2-url]: https://github.com/hunterg2
 [github3-url]: https://github.com/Nate-Montgomery
 [github4-url]: https://github.com/bond1999
 [github5-url]: https://github.com/username
