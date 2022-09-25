@@ -12,12 +12,11 @@ On top of this, be encouraging customers to use the reusable tote, we cut down o
 
 ## Contributors:
 
-Blake Lawyer, UTD Cognitive Science
-Hunter Girvan, UTD Computer Science/Economics
-Nate Montgomery, UTD Computer Science
-Surya Aggarwal, UTD Computer Sciene
-Trevor Richmond, UTD Computer Science
-
+Blake Lawyer, UTD Cognitive Science<br />
+Hunter Girvan, UTD Computer Science/Economics<br />
+Nate Montgomery, UTD Computer Science<br />
+Surya Aggarwal, UTD Computer Sciene<br />
+Trevor Richmond, UTD Computer Science<br />
 
 <div align="center">
 
