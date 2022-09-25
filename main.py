@@ -6,7 +6,7 @@ import processor
 # UUID Generator
 def generateUUID():
     flag = 0
-    f = open("../assets/UUIDs.csv", "r+")
+    f = open("assets/UUIDs.csv", "r+")
     newUUID = uuid.uuid4()
     for line in f:
         if line == newUUID:
@@ -19,7 +19,7 @@ def generateUUID():
 
 
 def generateXUUIDs(X):
-    f = open("../assets/UUIDs.csv")
+    f = open("assets/UUIDs.csv")
     count = 0
     for count, line in enumerate(f):
         pass
