@@ -1,11 +1,7 @@
 # Project Idea: Computer Vision and AI to create the pathway for a Personalized Customer Journey
 # Computer Vision to improve shit--
-from operator import itemgetter
-import string
-import struct
 import uuid
-from HackDFW2022 import processor, customer, store
-
+import processor
 
 # UUID Generator
 def generateUUID():
