@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from pyzbar.pyzbar import decode
-from HackDFW2022 import customer as cust
+import customer as cust
 from time import gmtime, strftime
 
 """
@@ -101,5 +101,4 @@ def process():
         print(customer.uuid)
         print(customer.time_entered)
 
-
-process()
+#process()
