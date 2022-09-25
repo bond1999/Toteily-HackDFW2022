@@ -1,13 +1,12 @@
 # Project Idea: Computer Vision and AI to create the pathway for a Personalized Customer Journey
 # Computer Vision to improve shit--
-from operator import itemgetter
-import string
-import struct
 import uuid
+import processor
+
 # UUID Generator
 def generateUUID():
     flag = 0
-    f = open("assets/UUIDs.csv", "r+")
+    f = open("../assets/UUIDs.csv", "r+")
     newUUID = uuid.uuid4()
     for line in f:
         if line == newUUID:
@@ -18,8 +17,9 @@ def generateUUID():
     else:
         generateUUID()
 
+
 def generateXUUIDs(X):
-    f = open("assets/UUIDs.csv")
+    f = open("../assets/UUIDs.csv")
     count = 0
     for count, line in enumerate(f):
         pass
@@ -28,11 +28,13 @@ def generateXUUIDs(X):
             generateUUID()
             count += 1
 
+
 # Store Function
-def store():
+def save():
     print("Storing Shopping Information...")
 
     print("Storing Successful!")
+
 
 # Retrieve Function
 def retrieve():
@@ -54,7 +56,7 @@ class Customer:
     age = None
     customer_email = None
     customer_phone = None
-    StoreVisit visits = []
+    visits = []
     def __init__(self, uuid):
         self.uuid = uuid
 
@@ -63,4 +65,7 @@ class Customer:
 def main():
     generateXUUIDs(20)
     print("I Totes see you!") # Hehe
+    processor.process()
+
+
 main()
