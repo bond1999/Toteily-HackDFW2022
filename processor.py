@@ -96,8 +96,4 @@ def process(customers):
         else:
             break
 
-    for customer in customers:
-        print(customer.uuid)
-        print(customer.time_entered)
-
 #process()
