@@ -25,7 +25,7 @@ Trevor Richmond, UTD Computer Science
 
 <div align="center">
 
-| <img src="https://imgur.com/a/CfZXKfk" alt="Logo" width="80px"> | <img src="https://i.imgur.com/Bd4FLZ8.jpg" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/60420578?s=400&u=60f200e3d19cb1f57db4f6d62f5f8bd30d53204c&v=4.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/46317327?s=400&u=a406abd1213b4566345d5bdba4481e8f48420421&v=4.png" alt="Logo" width="80px"> | <img src="image/avaimg.png" alt="Logo" width="80px"> |
+| <img src="https://i.imgur.com/3R0ec4D.jpg" alt="Logo" width="80px"> | <img src="https://i.imgur.com/Bd4FLZ8.jpg" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/60420578?s=400&u=60f200e3d19cb1f57db4f6d62f5f8bd30d53204c&v=4.png" alt="Logo" width="80px"> | <img src="https://avatars.githubusercontent.com/u/46317327?s=400&u=a406abd1213b4566345d5bdba4481e8f48420421&v=4.png" alt="Logo" width="80px"> | <img src="image/avaimg.png" alt="Logo" width="80px"> |
 |------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [![GitHub][github1-shield]][github1-url]             | [![GitHub][github2-shield]][github2-url]             | [![GitHub][github3-shield]][github3-url]                                                                                                                                                                                 | [![Github][github4-shield]][github4-url]                                                                                                      | [![GitHub][github5-shield]][github5-url]             |
 | email@email_client.com                               | email@email_client.com                               | Nate.Montgomery9@gmail.com                                                                                                                                                                                               | surya.modern.jobs@gmail.com                                                                                                                   | email@email_client.com                               |
@@ -34,19 +34,19 @@ Trevor Richmond, UTD Computer Science
 </div>
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin1-url]: https://linkedin.com/in/linkedin_username
+[linkedin1-url]: https://www.linkedin.com/in/blake-lawyer-949326222/
 [linkedin2-url]: https://www.linkedin.com/in/william-girvan/
 [linkedin3-url]: https://www.linkedin.com/in/nate-montgomery-a87616163/
 [linkedin4-url]: https://www.linkedin.com/in/surya-aggarwal/
 [linkedin5-url]: https://linkedin.com/in/linkedin_username
 
-[github1-shield]: https://img.shields.io/github/followers/username?style=social
+[github1-shield]: https://img.shields.io/github/followers/blakelawyer?style=social
 [github2-shield]: https://img.shields.io/github/followers/hunterg2?style=social
 [github3-shield]: https://img.shields.io/github/followers/Nate-Montgomery?style=social
 [github4-shield]: https://img.shields.io/github/followers/bond1999?style=social
 [github5-shield]: https://img.shields.io/github/followers/username?style=social
 
-[github1-url]: https://github.com/username
+[github1-url]: https://github.com/blakelawyer
 [github2-url]: https://github.com/hunterg2
 [github3-url]: https://github.com/Nate-Montgomery
 [github4-url]: https://github.com/bond1999
