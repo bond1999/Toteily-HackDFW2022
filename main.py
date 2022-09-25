@@ -1,6 +1,7 @@
 # Project Idea: Computer Vision and AI to create the pathway for a Personalized Customer Journey
 # Computer Vision to improve shit--
 import random
+import time
 import uuid
 import customer
 import processor
@@ -40,9 +41,10 @@ def readCustomerData():
 
 def main():
     allCustomers = readCustomerData()
-    print("I Totes see you!") # Hehe
+    print("Customers Data Loading Complete!")
+    print("Starting Video Stream in 3 seconds.")
+    time.sleep(3)
     processor.process(allCustomers)
-    print("I Totes gotch your QR!") # Haha
     print(allCustomers[0].first_name, allCustomers[0].visits)
 
 main()
