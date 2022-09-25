@@ -1,5 +1,4 @@
 class Customer:
-    uuid = None
     first_name = None
     last_name = None
     gender = None
@@ -9,3 +8,9 @@ class Customer:
     visits = []
     def __init__(self, uuid):
         self.uuid = uuid
+        self.first_name = fn
+        self.last_name = ln
+        self.gender = g
+        self.age = a
+        self.customer_email = ce
+        self.customer_phone = cp
