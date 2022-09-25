@@ -22,14 +22,5 @@ class Customer:
         self.age = array[4]
         self.customer_email = array[5]
         self.customer_phone = array[6]
-
-        # # Processor Code: DO NOT REMOVE
-        # if self.uuid == "3c31d93c-a668-4f24-b44e-91663b9a03e6":
-        #     self.first_name = "Trevor"
-        #     self.last_name = "Richmond"
-        # elif self.uuid == "fe2342e4-c6dd-4828-9d7f-a277be7f57fe":
-        #     self.first_name = "Hunter"
-        #     self.last_name = "Girvan"
-
         self.time_entered = None
         self.time_exited = None
