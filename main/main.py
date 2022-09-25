@@ -10,7 +10,7 @@ from HackDFW2022 import processor, customer, store
 # UUID Generator
 def generateUUID():
     flag = 0
-    f = open("assets/UUIDs.csv", "r+")
+    f = open("../assets/UUIDs.csv", "r+")
     newUUID = uuid.uuid4()
     for line in f:
         if line == newUUID:
@@ -23,7 +23,7 @@ def generateUUID():
 
 
 def generateXUUIDs(X):
-    f = open("assets/UUIDs.csv")
+    f = open("../assets/UUIDs.csv")
     count = 0
     for count, line in enumerate(f):
         pass
@@ -45,6 +45,25 @@ def retrieve():
     print("Retrieving Shopping Information...")
 
     print("Retrieving Successful!")
+
+class StoreVisit:
+    date_visited = ""
+    time_in_store = 0.0
+    money_spent = 0.0
+    items_bought = []
+    time_spent_aisle_num = []
+
+class Customer:
+    first_name = None
+    last_name = None
+    gender = None
+    age = None
+    customer_email = None
+    customer_phone = None
+    visits = []
+    def __init__(self, uuid):
+        self.uuid = uuid
+
 
 
 def main():
