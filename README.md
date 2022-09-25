@@ -8,7 +8,7 @@ Tote-ily Bags mission is to use Computer Vision to reduce the use of plastic bag
 
 By tracking this data over-time, we can learn customer behaviors and habits. Examples might be seeing the increase in sales of an item after a promotion, or during a certain season, or holiday. You could also see customer preferences change overtime. You could also see the differences in the amount of time custoemrs spend in an aisle after rearranging the store to move an aisle elsewhere. 
 
-On top of this, be encouraging customers to use the reusable tote, we cut down on plastic production and pollution, thus making the Earth a better place for everyone.
+Customers can be encouraged to use Tote-ily bags by providing the bags for free, or implementing a rewards program tied to the customer's bag - cutting down on plastic production and pollution, making the Earth a better place for everyone.
 
 ## Contributors:
 
