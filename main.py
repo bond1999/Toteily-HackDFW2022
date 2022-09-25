@@ -40,7 +40,6 @@ def readCustomerData():
 
 def main():
     allCustomers = readCustomerData()
-    print(len(allCustomers))
     print("Customers Data Loading Complete!")
     print("Starting Video Stream in 5 seconds.")
     time.sleep(5)
