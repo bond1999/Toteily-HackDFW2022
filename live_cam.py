@@ -7,7 +7,6 @@ from time import gmtime, strftime, localtime
 
 def stream(allCustomers):
 
-    customers = []
     displaying_text = False
 
     capture = cv2.VideoCapture(0)
@@ -18,7 +17,6 @@ def stream(allCustomers):
     entered = None
     timer = 0
 
-    # 640x480
     cv2.namedWindow("Tote-aly")
     cv2.moveWindow("Tote-aly", 300, 10)
 
@@ -40,7 +38,6 @@ def stream(allCustomers):
                         points = np.array([qr.polygon], np.int32)
                         points = points.reshape((-1, 1, 2))
                         cv2.polylines(frame, [points], True, (0, 255, 0), 15)
-                        found_customer = False
 
                         for c in allCustomers:
                             if c.uuid == uuid:
@@ -78,9 +75,7 @@ def stream(allCustomers):
                 frame = cv2.putText(frame, entered, (25, 925), font,
                                     font_scale, color, thickness, cv2.LINE_AA)
 
-
             cv2.imshow("Tote-aly", frame)
             cv2.waitKey(1)
-            # out.write(frame)
         else:
             break

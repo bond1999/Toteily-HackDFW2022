@@ -15,12 +15,10 @@ Notes:
 def process(customers):
     displaying_text = False
 
-    # Entering Aisle Loop
     capture = cv2.VideoCapture("resources/vision/qr_walk_resized.mp4")
     fourcc = cv2.VideoWriter_fourcc(*'MP4V')
     # out = cv2.VideoWriter('output.mp4', fourcc, 60.0, (1920, 1080))
     previous_frame = None
-    # Move this inside the while loop for flashing
     first = ""
     last = ""
     id = None
@@ -55,14 +53,13 @@ def process(customers):
 
                         if not found_customer:
                             displaying_text = True
-                            new_customer = cust.Customer(uuid, None, None, None, None, None, None)
+                            new_customer = cust.Customer(uuid)
                             first = new_customer.first_name
                             last = new_customer.last_name
                             id = new_customer.uuid
                             entered = new_customer.time_entered
                             new_customer.time_entered = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             customers.append(new_customer)
-
 
             if timer == 45:
                 displaying_text = False
@@ -95,5 +92,3 @@ def process(customers):
             # out.write(frame)
         else:
             break
-
-#process()
