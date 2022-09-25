@@ -101,5 +101,3 @@ def process():
         print(customer.uuid)
         print(customer.time_entered)
 
-
-process()
