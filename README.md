@@ -29,18 +29,18 @@ Easily track and learn individual and congregrate customer behaviors, preference
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin1-url]: https://linkedin.com/in/linkedin_username
 [linkedin2-url]: https://www.linkedin.com/in/william-girvan/
-[linkedin3-url]: https://linkedin.com/in/linkedin_username
+[linkedin3-url]: https://www.linkedin.com/in/nate-montgomery-a87616163/
 [linkedin4-url]: https://www.linkedin.com/in/surya-aggarwal/
 [linkedin5-url]: https://linkedin.com/in/linkedin_username
 
 [github1-shield]: https://img.shields.io/github/followers/username?style=social
 [github2-shield]: https://img.shields.io/github/followers/username?style=social
-[github3-shield]: https://img.shields.io/github/followers/username?style=social
+[github3-shield]: https://media-exp1.licdn.com/dms/image/C4E03AQGcsFI9xJgUnw/profile-displayphoto-shrink_200_200/0/1600969224341?e=1669852800&v=beta&t=5dtzSo9BZtaUNkF1v2b1ppbnw0PxyE3As6RtMd1rzxM
 [github4-shield]: https://img.shields.io/github/followers/bond1999?style=social
 [github5-shield]: https://img.shields.io/github/followers/username?style=social
 
 [github1-url]: https://github.com/username
 [github2-url]: https://github.com/username
-[github3-url]: https://github.com/username
+[github3-url]: https://github.com/Nate-Montgomery
 [github4-url]: https://github.com/bond1999
 [github5-url]: https://github.com/username
