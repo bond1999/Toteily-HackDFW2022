@@ -36,19 +36,13 @@ def readCustomerData():
         data = line.split(',')
         visit = customer.StoreVisit(data[0], data[1], data[2], data[3], data[4])
         allCustomers[random.randint(0, 1001)].visits.append(visit)
-
     return allCustomers
 
-def writeCustomerData(customer):
-    f3 = open("assets/CUSTOMER_DATA.dat")
-
-    pass
-
 def main():
+    allCustomers = readCustomerData()
     print("I Totes see you!") # Hehe
     #processor.process()
     print("I Totes gotch your QR!") # Haha
-    allCustomers = readCustomerData()
     print(allCustomers[0].first_name, allCustomers[0].visits)
 
 main()

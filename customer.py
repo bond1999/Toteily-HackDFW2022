@@ -1,9 +1,15 @@
 class StoreVisit:
-    date_visited = ""
-    time_in_store = 0.0
-    money_spent = 0.0
+    date_visited = None
+    time_in_store = None
+    money_spent = None
     items_bought = []
     time_spent_aisle_num = []
+    def __init__(self, dv, tis, ms, ib, tsan):
+        self.date_visited = dv
+        self.time_in_store = tis
+        self.money_spent = ms
+        self.items_bought = ib
+        self.time_spent_aisle_num = tsan
 
 class Customer:
     visits = []
