@@ -4,24 +4,24 @@ class StoreVisit:
     money_spent = None
     items_bought = []
     time_spent_aisle_num = []
-    def __init__(self, dv, tis, ms, ib, tsan):
-        self.date_visited = dv
-        self.time_in_store = tis
-        self.money_spent = ms
-        self.items_bought = ib
-        self.time_spent_aisle_num = tsan
+    def __init__(self, array):
+        self.date_visited = array[0]
+        self.time_in_store = array[1]
+        self.money_spent = array[2]
+        self.items_bought = array[3]
+        self.time_spent_aisle_num = array[4]
 
 class Customer:
     visits = []
 
-    def __init__(self, uuid, fn, ln, g, a, ce, cp):
-        self.uuid = uuid
-        self.first_name = fn
-        self.last_name = ln
-        self.gender = g
-        self.age = a
-        self.customer_email = ce
-        self.customer_phone = cp
+    def __init__(self, array):
+        self.uuid = array[0]
+        self.first_name = array[1]
+        self.last_name = array[2]
+        self.gender = array[3]
+        self.age = array[4]
+        self.customer_email = array[5]
+        self.customer_phone = array[6]
 
         # # Processor Code: DO NOT REMOVE
         # if self.uuid == "3c31d93c-a668-4f24-b44e-91663b9a03e6":

@@ -23,19 +23,19 @@ def generateUUID():
         generateUUID()
 
 def readCustomerData():
-    f1 = open("assets/MOCK_DATA_CUSTOMER.csv")
-    f1.readline()
-    allCustomers = []
-    for line in f1:
-        data = line.split(',')
-        newCustomer = customer.Customer(data[0], data[1], data[2], data[3], data[4], data[5], data[6])
-        allCustomers.append(newCustomer)
-    f2 = open("assets/MOCK_DATA STORE.csv")
-    f2.readline()
-    for line in f2:
-        data = line.split(',')
-        visit = customer.StoreVisit(data[0], data[1], data[2], data[3], data[4])
-        allCustomers[random.randint(0, 1000)].visits.append(visit)
+    with open("assets/MOCK_DATA_CUSTOMER.csv") as f1:
+        csvreader = csv.reader(f1, delimiter=',')
+        allCustomers = []
+        header = next(csvreader)
+        for row in csvreader:
+            newCustomer = customer.Customer(row)
+            allCustomers.append(newCustomer)
+    with open("assets/MOCK_DATA STORE.csv") as f2:
+        csvreader = csv.reader(f2, delimiter=',')
+        for row in csvreader:
+            print(len(row))
+            visit = customer.StoreVisit(row)
+            allCustomers[random.randint(0, 1000)].visits.append(visit)
     return allCustomers
 
 def main():
