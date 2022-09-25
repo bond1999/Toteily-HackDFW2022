@@ -1,3 +1,5 @@
+import datetime
+
 class StoreVisit:
     date_visited = None
     time_in_store = None
@@ -6,10 +8,10 @@ class StoreVisit:
     time_spent_aisle_num = []
     def __init__(self, array):
         self.date_visited = array[0]
-        self.time_in_store = array[1]
-        self.money_spent = array[2]
-        self.items_bought = array[3]
-        self.time_spent_aisle_num = array[4]
+        self.time_in_store = int(array[1])
+        self.money_spent = float(array[2])
+        self.items_bought = array[3][1:-1].split(', ')
+        self.time_spent_aisle_num = array[4][1:-1].split(', ')
 
 class Customer:
     visits = []

@@ -8,7 +8,7 @@ import processor
 import csv
 import customer
 from graphs import createGraphs
-from HackDFW2022 import live_cam
+from live_cam import stream
 
 
 # UUID Generator
@@ -42,15 +42,16 @@ def readCustomerData():
     return allCustomers
 
 def main():
-    createGraphs(allCustomers)
     
     allCustomers = readCustomerData()
+    #print(len(allCustomers[0].visits[0].items_bought))
+    createGraphs(allCustomers)
     print("Customers Data Loading Complete!")
 
     print("Starting Video Stream in 3 seconds.")
     time.sleep(3)
 
-    live_cam.stream(allCustomers)
+    stream(allCustomers)
 
     # processor.process(allCustomers)
 
