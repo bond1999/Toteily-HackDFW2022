@@ -1,6 +1,4 @@
-# Tote-ily Bags
 ![tote-ily](https://user-images.githubusercontent.com/38335612/192137387-534ebb52-16fd-4f43-9e84-5a5a67d8f34b.png)
-
 https://user-images.githubusercontent.com/38335612/192137709-eb3fa3f8-636c-49d3-8307-47341dea7b5b.mp4
 
 ## How does it work?
