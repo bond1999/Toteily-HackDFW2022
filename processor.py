@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from pyzbar.pyzbar import decode
-from HackDFW2022 import customer as cust
+import customer as cust
 from time import gmtime, strftime
 
 """
@@ -19,7 +19,7 @@ def process():
     # Entering Aisle Loop
     capture = cv2.VideoCapture("resources/vision/qr_walk_resized.mp4")
     fourcc = cv2.VideoWriter_fourcc(*'MP4V')
-    out = cv2.VideoWriter('output.mp4', fourcc, 60.0, (1920, 1080))
+    # out = cv2.VideoWriter('output.mp4', fourcc, 60.0, (1920, 1080))
     previous_frame = None
     # Move this inside the while loop for flashing
     first = ""
@@ -56,7 +56,7 @@ def process():
 
                         if not found_customer:
                             displaying_text = True
-                            new_customer = cust.Customer(uuid)
+                            new_customer = cust.Customer(uuid, None, None, None, None, None, None)
                             first = new_customer.first_name
                             last = new_customer.last_name
                             id = new_customer.uuid
@@ -93,7 +93,7 @@ def process():
 
             cv2.imshow("Tote-aly", frame)
             cv2.waitKey(1)
-            out.write(frame)
+            # out.write(frame)
         else:
             break
 
@@ -101,3 +101,4 @@ def process():
         print(customer.uuid)
         print(customer.time_entered)
 
+#process()

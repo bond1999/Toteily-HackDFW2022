@@ -6,6 +6,8 @@ import customer
 import processor
 import csv
 
+import customer
+
 # UUID Generator
 def generateUUID():
     flag = 0
@@ -19,18 +21,6 @@ def generateUUID():
         f.write(str(newUUID) + "\n")
     else:
         generateUUID()
-
-
-def generateXUUIDs(X):
-    f = open("assets/UUIDs.csv")
-    count = 0
-    for count, line in enumerate(f):
-        pass
-    if count < X-1:
-        while count < X-1:
-            generateUUID()
-            count += 1
-
 
 def readCustomerData():
     f1 = open("assets/MOCK_DATA_CUSTOMER.csv")
@@ -55,9 +45,8 @@ def writeCustomerData(customer):
     pass
 
 def main():
-    # generateXUUIDs(20)
     print("I Totes see you!") # Hehe
-    # processor.process()
+    #processor.process()
     print("I Totes gotch your QR!") # Haha
     allCustomers = readCustomerData()
     print(allCustomers[0].first_name, allCustomers[0].visits)

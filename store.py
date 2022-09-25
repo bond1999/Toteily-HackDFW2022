@@ -4,3 +4,4 @@ class StoreVisit:
     money_spent = 0.0
     items_bought = []
     time_spent_aisle_num = []
+    
