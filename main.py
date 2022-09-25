@@ -6,8 +6,9 @@ import uuid
 import customer
 import processor
 import csv
-
 import customer
+from HackDFW2022 import live_cam
+
 
 # UUID Generator
 def generateUUID():
@@ -36,7 +37,7 @@ def readCustomerData():
         for row in csvreader:
             print(len(row))
             visit = customer.StoreVisit(row)
-            allCustomers[random.randint(0, 1000)].visits.append(visit)
+            allCustomers[random.randint(0, 999)].visits.append(visit)
     return allCustomers
 
 def main():
@@ -44,7 +45,11 @@ def main():
     print("Customers Data Loading Complete!")
     print("Starting Video Stream in 3 seconds.")
     time.sleep(3)
-    processor.process(allCustomers)
-    print(allCustomers[0].first_name, allCustomers[0].visits)
+
+    live_cam.stream(allCustomers)
+
+
+    # processor.process(allCustomers)
+    #print(allCustomers[0].first_name, allCustomers[0].visits)
 
 main()
