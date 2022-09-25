@@ -4,6 +4,9 @@ from operator import itemgetter
 import string
 import struct
 import uuid
+from HackDFW2022 import processor, customer, store
+
+
 # UUID Generator
 def generateUUID():
     flag = 0
@@ -18,6 +21,7 @@ def generateUUID():
     else:
         generateUUID()
 
+
 def generateXUUIDs(X):
     f = open("assets/UUIDs.csv")
     count = 0
@@ -28,11 +32,13 @@ def generateXUUIDs(X):
             generateUUID()
             count += 1
 
+
 # Store Function
-def store():
+def save():
     print("Storing Shopping Information...")
 
     print("Storing Successful!")
+
 
 # Retrieve Function
 def retrieve():
@@ -40,27 +46,11 @@ def retrieve():
 
     print("Retrieving Successful!")
 
-class StoreVisit:
-    date_visited = ""
-    time_in_store = 0.0
-    money_spent = 0.0
-    items_bought = []
-    time_spent_aisle_num = []
-
-class Customer:
-    first_name = None
-    last_name = None
-    gender = None
-    age = None
-    customer_email = None
-    customer_phone = None
-    StoreVisit visits = []
-    def __init__(self, uuid):
-        self.uuid = uuid
-
-
 
 def main():
     generateXUUIDs(20)
     print("I Totes see you!") # Hehe
+    processor.process()
+
+
 main()
