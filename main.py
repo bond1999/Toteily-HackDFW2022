@@ -44,12 +44,8 @@ def main():
     print("Starting Video Stream in 3 seconds.")
     time.sleep(3)
     processor.process(allCustomers)
-<<<<<<< HEAD
     print("I Totes gotch your QR!") # Haha
     print(allCustomers[0].first_name)
     
-=======
-    print(allCustomers[0].first_name, allCustomers[0].visits)
->>>>>>> 452998b4fba329029775fb27656c96ea95e3c40f
 
 main()
