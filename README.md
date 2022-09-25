@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/38335612/192137709-eb3fa3f8-636c-49d3-
 
 Tote-ily Bags mission is to use Computer Vision to reduce the use of plastic bags by customers, while gathering data valuable to the company. We use QR codes on tote bags to track customer movement in store as they shop. As customers enter and exit the ailes, cameras running our software detect the QR code, collecting information such as duration in each aisle, and what they purchase. Each Tote-ily bag has a unique ID that gets accociated with the customer on checkout, avoiding the hassle of a sign up process. 
 
-By tracking this data over-time, we can learn customer behaviors and habits. Examples might be seeing the increase in sales of an item after a promotion, or during a certain season, or holiday. You could also see customer preferences change overtime. You could also see the differences in the amount of time custoemrs spend in an aisle after rearranging the store to move an aisle elsewhere. 
+By tracking this data over-time, we can learn customer behaviors and habits. Examples might be seeing the increase in sales of an item after a promotion, or during a certain season, or holiday. You could also see customer preferences change overtime. You could also see the differences in the amount of time customers spend in an aisle after rearranging the store to move an aisle elsewhere. 
 
 Customers can be encouraged to use Tote-ily bags by providing the bags for free, or implementing a rewards program tied to the customer's bag - cutting down on plastic production and pollution, making the Earth a better place for everyone.
 
