@@ -19,7 +19,7 @@ def process():
     # Entering Aisle Loop
     capture = cv2.VideoCapture("resources/vision/qr_walk_resized.mp4")
     fourcc = cv2.VideoWriter_fourcc(*'MP4V')
-    out = cv2.VideoWriter('output.mp4', fourcc, 60.0, (1920, 1080))
+    # out = cv2.VideoWriter('output.mp4', fourcc, 60.0, (1920, 1080))
     previous_frame = None
     # Move this inside the while loop for flashing
     first = ""
@@ -93,9 +93,8 @@ def process():
 
             cv2.imshow("Tote-aly", frame)
             cv2.waitKey(1)
-            out.write(frame)
+            # out.write(frame)
         else:
             break
 
-
-process()
+# process()
