@@ -75,7 +75,7 @@ def stream(allCustomers):
                 frame = cv2.putText(frame, entered, (25, 925), font,
                                     font_scale, color, thickness, cv2.LINE_AA)
 
-            cv2.imshow("Tote-aly", frame)
+            cv2.imshow("Tote-ily", frame)
             cv2.waitKey(1)
         else:
             break
