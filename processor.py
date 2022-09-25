@@ -56,7 +56,7 @@ def process():
 
                         if not found_customer:
                             displaying_text = True
-                            new_customer = cust.Customer(uuid)
+                            new_customer = cust.Customer(uuid, None, None, None, None, None, None)
                             first = new_customer.first_name
                             last = new_customer.last_name
                             id = new_customer.uuid
@@ -97,7 +97,5 @@ def process():
         else:
             break
 
-    for customer in customers:
-        print(customer.uuid)
-        print(customer.time_entered)
 
+process()
