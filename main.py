@@ -4,11 +4,10 @@ import random
 import time
 import uuid
 import customer
+import graphs
+import live_cam
 import processor
 import csv
-import customer
-from graphs import createGraphs
-from live_cam import stream
 
 
 # UUID Generator
@@ -45,13 +44,11 @@ def main():
     
     allCustomers = readCustomerData()
     #print(len(allCustomers[0].visits[0].items_bought))
-    createGraphs(allCustomers)
     print("Customers Data Loading Complete!")
-
-    print("Starting Video Stream in 3 seconds.")
-    time.sleep(3)
-
-    stream(allCustomers)
+    print("Starting Video Stream in 5 seconds.")
+    graphs.createGraphs(allCustomers)
+    time.sleep(5)
+    live_cam.stream(allCustomers)
 
     # processor.process(allCustomers)
 
