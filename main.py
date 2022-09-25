@@ -1,6 +1,7 @@
 # Project Idea: Computer Vision and AI to create the pathway for a Personalized Customer Journey
 # Computer Vision to improve shit--
 import random
+import time
 import uuid
 import customer
 import processor
@@ -30,7 +31,7 @@ def readCustomerData():
         for row in csvreader:
             newCustomer = customer.Customer(row)
             allCustomers.append(newCustomer)
-    with open("assets/MOCK_DATA STORE.csv") as f2:
+    with open("assets/MOCK_DATA_STORE_VISITS.csv") as f2:
         csvreader = csv.reader(f2, delimiter=',')
         for row in csvreader:
             visit = customer.StoreVisit(row)
@@ -39,10 +40,16 @@ def readCustomerData():
 
 def main():
     allCustomers = readCustomerData()
-    print("I Totes see you!") # Hehe
+    print("Customers Data Loading Complete!")
+    print("Starting Video Stream in 3 seconds.")
+    time.sleep(3)
     processor.process(allCustomers)
+<<<<<<< HEAD
     print("I Totes gotch your QR!") # Haha
     print(allCustomers[0].first_name)
     
+=======
+    print(allCustomers[0].first_name, allCustomers[0].visits)
+>>>>>>> 452998b4fba329029775fb27656c96ea95e3c40f
 
 main()
