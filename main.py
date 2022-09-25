@@ -35,11 +35,12 @@ def readCustomerData():
         csvreader = csv.reader(f2, delimiter=',')
         for row in csvreader:
             visit = customer.StoreVisit(row)
-            allCustomers[random.randint(0, 1000)].visits.append(visit)
+            allCustomers[random.randint(0, 999)].visits.append(visit)
     return allCustomers
 
 def main():
     allCustomers = readCustomerData()
+    print(len(allCustomers))
     print("Customers Data Loading Complete!")
     print("Starting Video Stream in 5 seconds.")
     time.sleep(5)
