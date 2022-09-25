@@ -1,6 +1,8 @@
 # Project Idea: Computer Vision and AI to create the pathway for a Personalized Customer Journey
 # Computer Vision to improve shit--
 import uuid
+
+import customer
 import processor
 import csv
 
@@ -21,19 +23,19 @@ def generateUUID():
         generateUUID()
 
 def readCustomerData():
-    with open("./assets/MOCK_DATA_CUSTOMER.csv") as f1:
-        f1.readline()
-        allCustomers = []
-        for line in f1:
-            data = line.split(',')
-            newCustomer = Customer(data[0], data[1], data[2], data[3], data[4], data[5], data[6])
-            allCustomers.append(newCustomer)
-        return allCustomers
+    f1 = open("assets/MOCK_DATA_CUSTOMER.csv")
+    f1.readline()
+    allCustomers = []
+    for line in f1:
+        data = line.split(',')
+        newCustomer = customer.Customer(data[0], data[1], data[2], data[3], data[4], data[5], data[6])
+        allCustomers.append(newCustomer)
+    return allCustomers
 
 def writeCustomerData(customer):
-    with open("./assets/MOCK_DATA_CUSTOMER.csv") as f3:
+    f3 = open("assets/CUSTOMER_DATA.dat")
 
-        pass
+    pass
 
 def main():
     print("I Totes see you!") # Hehe
