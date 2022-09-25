@@ -34,7 +34,6 @@ def readCustomerData():
     with open("assets/MOCK_DATA_STORE_VISITS.csv") as f2:
         csvreader = csv.reader(f2, delimiter=',')
         for row in csvreader:
-            print(len(row))
             visit = customer.StoreVisit(row)
             allCustomers[random.randint(0, 1000)].visits.append(visit)
     return allCustomers
@@ -45,6 +44,12 @@ def main():
     print("Starting Video Stream in 5 seconds.")
     time.sleep(5)
     processor.process(allCustomers)
+<<<<<<< HEAD
+    print("I Totes gotch your QR!") # Haha
+    print(allCustomers[0].first_name)
+    
+=======
     print(allCustomers[0].first_name, allCustomers[0].visits)
+>>>>>>> 452998b4fba329029775fb27656c96ea95e3c40f
 
 main()
