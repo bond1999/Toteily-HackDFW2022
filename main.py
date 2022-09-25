@@ -43,9 +43,6 @@ def main():
     print("Customers Data Loading Complete!")
     print("Starting Video Stream in 5 seconds.")
     time.sleep(5)
-    processor.process(allCustomers)
-    print("I Totes gotch your QR!") # Haha
-    print(allCustomers[0].first_name)
-    
+    # processor.process(allCustomers)
 
 main()
