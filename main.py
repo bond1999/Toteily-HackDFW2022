@@ -35,13 +35,13 @@ def readCustomerData():
     for line in f2:
         data = line.split(',')
         visit = customer.StoreVisit(data[0], data[1], data[2], data[3], data[4])
-        allCustomers[random.randint(0, 1001)].visits.append(visit)
+        allCustomers[random.randint(0, 1000)].visits.append(visit)
     return allCustomers
 
 def main():
     allCustomers = readCustomerData()
     print("I Totes see you!") # Hehe
-    #processor.process()
+    processor.process(allCustomers)
     print("I Totes gotch your QR!") # Haha
     print(allCustomers[0].first_name, allCustomers[0].visits)
 

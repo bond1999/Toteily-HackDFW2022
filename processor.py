@@ -12,8 +12,7 @@ Notes:
 """
 
 
-def process():
-    customers = []
+def process(customers):
     displaying_text = False
 
     # Entering Aisle Loop
